@@ -143,7 +143,7 @@ DownloadAndChmod() {
   wget "https://github.com/zahidbd2/udp-zivpn/releases/download/udp-zivpn_1.4.9/udp-zivpn-linux-$MACHINE" -O /usr/local/bin/zivpn 1> /dev/null 2> /dev/null
   chmod +x /usr/local/bin/zivpn
   
-  wget "https://raw.githubusercontent.com/potatonc/zivpn-udp/refs/heads/main/zivpn.py" -O /usr/local/bin/mzivpn 1> /dev/null 2> /dev/null
+  wget "https://raw.githubusercontent.com/Book199/zivpn-udp/refs/heads/main/zivpn.py" -O /usr/local/bin/mzivpn 1> /dev/null 2> /dev/null
   chmod +x /usr/local/bin/mzivpn
 }
 
